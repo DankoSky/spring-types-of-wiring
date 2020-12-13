@@ -15,7 +15,7 @@ public class AppConfig {
     }
 
     @Bean
-    public static Deth8 getDeth(Needle7 needle7) {
-        return new Deth8();
+    public static Needle7 getDeth(Deth8 deth8) {
+        return new Needle7(deth8);
     }
 }
